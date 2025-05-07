@@ -1,0 +1,12 @@
+# Ambientes virtuais comuns
+venv/
+.venv/
+env/
+.env/
+ENV/
+.VENV/
+ENV.bak/
+.venv.bak/
+
+# Pyenv virtualenvs
+.python-version
