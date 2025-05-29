@@ -1,0 +1,38 @@
+.galeria {
+  padding: 20px;
+  text-align: center;
+}
+
+.galeria-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+/* Espaço vazio nos cantos da segunda linha */
+.galeria-spacer {
+  /* Ocupa o espaço da grid */
+}
+
+/* Estilo padrão dos cards */
+figure {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
