@@ -1,0 +1,14 @@
+(...)<ul>
+    {lista.map((item, index) => (
+        <li key={index}>
+            <strong (...)
+
+Não é uma boa prática trabalhar com key utilizando index já que
+o ID nesse caso é apenas a posição dentro do array (lista). E se deci-
+dirmos mover os itens dentro array? O que antes poderia ser represen-
+tado por um "ID" pode ser representado por outro agora.
+O que poderia ser feito?
+id: Math.floor(Math.random()* 1000000)
+Cria um número aleatório de 1 a 1000000 (com tratamento para números decimais),
+e como o intervalo é grande, a chance de ser um número repetido é de
+(obviamente) 1 em 1000000.

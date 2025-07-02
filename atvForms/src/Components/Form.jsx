@@ -38,7 +38,7 @@ export default function Form() {
 
     return (
         <div>
-            <h1>Tarefas</h1>
+            <h1>TAREFAS</h1>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="tarefa">
                     <input
