@@ -1,0 +1,42 @@
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    width: 100%;
+}
+
+table {
+    width: 25%;
+    margin: 1vw;
+}
+
+.nomes {
+    background-color: lightblue;
+    color: rgb(0, 139, 253);
+}
+
+.nomes th {
+    border: 2px solid rgb(0, 139, 253);
+}
+
+.usernames {
+    background-color: lightgreen;
+    color: rgb(1, 158, 53);
+}
+
+.usernames th {
+    border: 2px solid rgb(1, 158, 53);
+}
+
+.cidades {
+    background-color: lightcoral;
+    color: rgb(197, 5, 5);
+}
+
+.cidades th {
+    border: 2px solid rgb(197, 5, 5);
+}
